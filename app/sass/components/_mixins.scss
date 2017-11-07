@@ -1,0 +1,40 @@
+@mixin bg-carbon {
+	background:
+		linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+		linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+		linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+		linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+		linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+		linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+		background-color: #131313;
+		background-size: 20px 20px;
+}
+
+@mixin multiple-border {
+	box-shadow: 
+ 		0 0 0 1.5px $color-4,
+ 		0 0 0 3px $color-2,
+ 		0 0 0 3.5px $color-4,
+ 		0 0 8px 4px $color-2;
+}
+
+@mixin bg-block-gradient {
+	background: 
+		linear-gradient(120deg, rgba(0,0,0,0.9) 0%,
+		rgba(0,0,0,0.7) 20%,
+		rgba(0,0,0,0.2) 50%,
+		rgba(0,0,0,0.7) 80%,
+		rgba(0,0,0,0.9) 100%);
+	z-index: -10;
+}
+
+@mixin accept-btn {
+	background-color: $color-5;
+	color: $color-1;
+	outline: none;
+	border: none;
+	padding: 0.5em 1em;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+}
