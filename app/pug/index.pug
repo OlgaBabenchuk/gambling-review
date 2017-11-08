@@ -37,49 +37,77 @@ html(lang="en")
 						button.btns Tty it now!
 
 				aside.game-slider-wrp
-					a(href="#").game-slider-title Our new ames
+					a(href="#").game-slider-title Our new games
 					ul.game-slider
 						li.game-slider__item
 							a(href="#")
-								img(src="../img/games_1.png" alt="")
+								img(src="./img/games_1.png" alt="")
 							.game-slider__item-name Name of the game
 						li.game-slider__item
 							a(href="#")
-								img(src="../img/games_2.png" alt="")
+								img(src="./img/games_2.png" alt="")
 							.game-slider__item-name Name of the game
 						li.game-slider__item
 							a(href="#")
-								img(src="../img/games_3.png" alt="")
+								img(src="./img/games_3.png" alt="")
 							.game-slider__item-name Name of the game
 						li.game-slider__item
 							a(href="#")
-								img(src="../img/games_4.png" alt="")
+								img(src="./img/games_4.png" alt="")
 							.game-slider__item-name Name of the game
 						li.game-slider__item
 							a(href="#")
-								img(src="../img/games_5.png" alt="")
+								img(src="./img/games_5.png" alt="")
 							.game-slider__item-name Name of the game
 						li.game-slider__item
 							a(href="#")
-								img(src="../img/games_6.png" alt="")
+								img(src="./img/games_6.png" alt="")
 							.game-slider__item-name Name of the game
-
-		//- 		aside.info
-		//- 			.accordion
-		//- 				.accordion__title.close Click to 
-		//- 					span open
-		//- 					span close
-		//- 				.accordion__body Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indus book.  desktop publishing software like Aldus PageMaker including versions of Lorem ageMaker including versions of Lorem Ipsum...
-
-		//- 				.accordion__title.close Click to 
-		//- 					span open
-		//- 					span close
-		//- 				.accordion__body Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indus book.  desktop publishing software like Aldus PageMaker including versions of Lorem ageMaker including versions of Lorem Ipsum...
-
-		//- 				.accordion__title.close Click to 
-		//- 					span open
-		//- 					span close
-		//- 				.accordion__body Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indus book.  desktop publishing software like Aldus PageMaker including versions of Lorem ageMaker including versions of Lorem Ipsum...
+			section.info
+				.info__box
+					.info-box__title Sports cateories
+					ul.info-box__list
+						li.info-box__list-item
+							a(href="#") Soccer
+						li.info-box__list-item
+							a(href="#") Basketball
+						li.info-box__list-item
+							a(href="#") Boxing
+						li.info-box__list-item
+							a(href="#") Baseball
+						li.info-box__list-item
+							a(href="#") Hockey
+				.info__box
+					.info-box__title Closest competitions
+					ul.info-box__schedule
+						li
+							.schedule-data
+								date 10.11
+								br
+								time 20:00
+							a(href="#").schedule-link Basketball, NBA. LA - Boston
+						li
+							.schedule-data
+								date 12.11
+								br
+								time 22:00
+							a(href="#").schedule-link F1 racing, Grand prix Brazil
+						li
+							.schedule-data
+								date 17.11
+								br
+								time 19:00
+							a(href="#").schedule-link Football championship
+				.info__box
+					.info-box__title Last news
+						.info-box__news
+							a(href="#").img-wpr
+								img(src="./img/football.jpeg" alt="")
+							a(href="#").info-box__news-link American football news
+						.info-box__news
+							a(href="#").img-wpr
+								img(src="./img/mob-betting.jpg" alt="")
+							a(href="#").info-box__news-link News in the casino world
 
 			footer
 				include modules/footer.pug

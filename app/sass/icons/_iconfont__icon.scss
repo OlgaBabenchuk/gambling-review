@@ -53,11 +53,6 @@ $global-font-icon: 'myicons';
      content: $icon-visa;
    }
  }
- &.-webmoney {
-   &:before {
-     content: $icon-webmoney;
-   }
- }
  &.-western-union {
    &:before {
      content: $icon-western-union;
