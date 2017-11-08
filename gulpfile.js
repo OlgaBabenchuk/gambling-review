@@ -163,6 +163,7 @@ gulp.task("build:icons", function() {
 
 gulp.task('build', ['clean', 'sass', 'pug'/*, 'concatjs', 'concatcss'*/], function() {
   var buildFonts = gulp.src('./app/fonts/**/*').pipe(gulp.dest('./dist/fonts'));
+  var buildIcons = gulp.src('./app/icons/**/*').pipe(gulp.dest('./dist/icons'));
   var buildJs = gulp.src('./app/js/**/*').pipe(gulp.dest('./dist/js'));
   var buildLibs = gulp.src('./app/libs/**/*').pipe(gulp.dest('./dist/libs'));
   var buildCss = gulp.src('./app/css/**/*').pipe(gulp.dest('./dist/css'));
